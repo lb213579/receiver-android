@@ -1,0 +1,40 @@
+# ===== Built application files =====
+*.apk
+*.aar
+*.ap_
+*.aab
+
+# ===== Java / Android class & dex =====
+*.class
+*.dex
+
+# ===== Generated files =====
+bin/
+gen/
+out/
+release/
+captures/
+
+# ===== Gradle =====
+.gradle/
+build/
+
+# ===== Local configuration (SDK path, keys) =====
+local.properties
+keystore.properties
+Android/keystore.properties
+*.jks
+*.keystore
+
+# ===== Android Studio / IntelliJ =====
+*.iml
+.idea/
+.DS_Store
+
+# ===== WorkBuddy project data =====
+.workbuddy/
+
+# ===== Heavy binary assets excluded from this push (per scope decision) =====
+# 文档配图与接收端实测截图体积较大，未纳入本次推送；需要时取消下行注释即可纳入版本控制。
+images/
+receiver_proofs/
